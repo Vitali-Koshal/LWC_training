@@ -1,0 +1,56 @@
+
+{
+"[apex]": {},
+
+"files.autoSave": "off",
+
+"files.autoSaveDelay": 30000,
+
+"explorer.confirmDelete": false,
+
+"git.autofetch": true,
+
+"workbench.editor.enablePreview": false,
+
+"workbench.colorTheme": "Default Dark+",
+
+"terminal.integrated.fontSize": 15,
+
+"editor.formatOnSave": false,
+
+"terminal.integrated.rendererType": "dom",
+
+"comments.openPanel": "neverOpen",
+
+"salesforcedx-vscode-core.push-or-deploy-on-save.enabled": false,
+
+"powershell.integratedConsole.showOnStartup": false,
+
+"powershell.startAutomatically": true,
+
+"workbench.activityBar.visible": true,
+
+"workbench.statusBar.visible": true,
+
+"workbench.sideBar.location": "left",
+
+"workbench.editor.showTabs": true,
+
+"breadcrumbs.enabled": false,
+
+"emmet.preferences": {
+
+
+
+},
+
+"files.associations": {
+
+
+
+
+}
+
+
+
+}

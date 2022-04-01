@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Parent Component">
+        <div class="slds-m-left_small">
+            <p>Value in the parent {checkboxValue}</p>
+        </div>
+        <div>
+            <c-child-a ongetcheckboxvalue={handleCheckboxValue}></c-child-a>
+        </div>
+        <div>
+            <c-child-b get-check-box-value={checkboxValue}></c-child-b>
+        </div>
+    </lightning-card>
+    
+</template>
