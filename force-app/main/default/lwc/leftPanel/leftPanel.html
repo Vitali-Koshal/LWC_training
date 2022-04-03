@@ -1,8 +1,17 @@
 <template>
     <div>
-        <h1>Left Panel</h1>    </div>
+        <h1>Left Panel</h1>    
+    </div>
     <div>
-        <ligntning-input type="checkbox" label="Checkbox 1" unchecked></ligntning-input>
-        <ligntning-input type="checkbox" label="Checkbox 2" unchecked></ligntning-input>
+        <lightning-input 
+                        type = "checkbox" 
+                        label = "Checkbox 1" 
+                        unchecked 
+                        onchange = {handleCheckbox1State}></lightning-input>
+        <lightning-input 
+                        type = "checkbox" 
+                        label = "Checkbox 2" 
+                        unchecked
+                        onchange = {handleCheckbox2State}></lightning-input>
     </div>
 </template>
